@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "production": "p2m start src/loader.js --name todo-app"
+    "production": "pm2 start src/loader.js --name todo-app"
   },
   "dependencies": {
     "body-parser": "1.15.2",
