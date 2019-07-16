@@ -5,6 +5,10 @@
   "repository": "https://github.com/samuelrbo/todo-app",
   "author": "Samuel Ramon <samuelrbo@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production": "webpack --progress -p"
+  },
   "devDependencies": {
     "axios": "0.15.3",
     "babel-core": "6.22.1",
